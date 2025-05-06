@@ -24,10 +24,10 @@ global.confirmCode = ""
 
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923092668108'] 
-global.prems = ['923092668108']
-global.allowed = ['923092668108']
+//💌global.pairingNumber = "2348077825595" //put your bot number here💌
+global.mods = ['2348077825595'] 
+global.prems = ['2348077825595']
+global.allowed = ['2348077825595']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -160,7 +160,7 @@ global.eror = '```404 error```'
 dotenv.config()
 
 
-const ownervb = process.env.OWNER_NUMBER || "";
+const ownervb = process.env.OWNER_NUMBER || "2348077825595";
 const ownerlist = ownervb.split(',');
 global.owner = [];
 for (let i = 0; i < ownerlist.length; i += 2) {
